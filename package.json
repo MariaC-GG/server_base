@@ -1,0 +1,22 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "pasta base do servidor",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaC-GG/server_base.git"
+  },
+  "author": "Maria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaC-GG/server_base/issues"
+  },
+  "homepage": "https://github.com/MariaC-GG/server_base#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
