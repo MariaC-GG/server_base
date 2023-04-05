@@ -14,6 +14,11 @@ app.use(express.static('public'))
 
 /* --- rotas do projeto ---*/
 /* -- área de programação*/
+
+app.get('../surch/',(req,res)=>{
+    res.render('contato.html')
+})
+
 app.get('/',(req,res)=>{
     res.render('index.html')
 })
